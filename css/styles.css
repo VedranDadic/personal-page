@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+    color: rgb(51, 51, 51);
+    margin: 0px;
+    text-align: center;
+}
+
+.first-container {
+    background-color: rgb(217, 242, 250);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.second-container {
+    margin: 100px, 0;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: "sans-serif", cursive;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 30%;
+    margin: auto;
+}
+
+.footer {
+    background-color: rgb(217, 242, 250);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+}
+
+.nav_item {
+    display: inline;
+}
+
+#main_nav {
+    position: relative;
+    list-style-type: none;
+    background-color: rgb(142, 217, 241);
+    width: 100%;
+  }
+
+li a {
+    color:#227c7c;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.about-container {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.about_item {
+    padding-bottom: 10px;
+}
+
+.about_name{
+    padding-top: 30px;
+}
+
+.project-item {
+    margin: 100px, 0;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.project-container {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.project-item {
+    box-sizing: border-box;
+    flex: 1 1 calc(33.33% - 10px);    
+    text-align: center;
+}
+
+.sat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #66bfbf;
+    font-size: 100px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+}
+
+.kontakt {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+  }
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+
+.form-group input, .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+
+  button[type="submit"] {
+    display: inline-block;
+    background: #66bfbf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
